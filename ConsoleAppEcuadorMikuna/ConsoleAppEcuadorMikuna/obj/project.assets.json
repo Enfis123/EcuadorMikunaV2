@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TOSHIBA\\Source\\Repos\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna.csproj",
+      "projectUniqueName": "C:\\Users\\TOSHIBA\\source\\repos\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna.csproj",
       "projectName": "ConsoleAppEcuadorMikuna",
-      "projectPath": "C:\\Users\\TOSHIBA\\Source\\Repos\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna.csproj",
+      "projectPath": "C:\\Users\\TOSHIBA\\source\\repos\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna.csproj",
       "packagesPath": "C:\\Users\\TOSHIBA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TOSHIBA\\Source\\Repos\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\obj\\",
+      "outputPath": "C:\\Users\\TOSHIBA\\source\\repos\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TOSHIBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
