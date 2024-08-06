@@ -1,0 +1,6 @@
+@ApiGatewayEcuadorMikuna_HostAddress = http://localhost:5008
+
+GET {{ApiGatewayEcuadorMikuna_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

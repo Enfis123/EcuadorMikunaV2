@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  ordersservice:
+    image: ordersservice:latest
+    build:
+      context: ./OrdersService
+      dockerfile: Dockerfile
+    ports:
+      - "5001:80"
+    depends_on:
+      - sqlserver
+
+  storesservice:
+    image: storesservice:latest
+    build:
+      context: ./StoresService
+      dockerfile: Dockerfile
+    ports:
+      - "5002:80"
+    depends_on:
+      - sqlserver
+
+  backend:
+    image: backend:latest
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    ports:
+      - "5003:80"
+    depends_on:
+      - sqlserver
+
+  apigateway:
+    image: apigateway:latest
+    build:
+      context: ./ApiGateway
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - ordersservice
+      - storesservice
+      - backend
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "Your_password123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserverdata:/var/opt/mssql
+
+volumes:
+  sqlserverdata:

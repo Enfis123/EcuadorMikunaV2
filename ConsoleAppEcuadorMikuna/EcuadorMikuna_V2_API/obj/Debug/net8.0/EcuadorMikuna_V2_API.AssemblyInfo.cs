@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcuadorMikuna_V2_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bc31608aec3c157b14b7ce06716d2b48b5de3a3")]
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d90f692653f2b3a37fdc9c427a50a7a6ff95726")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e528afc12d164c7b8d2f949184dbfb9fd0b6886c")]
+>>>>>>> 936085e4a26e5c9182dfb0ae06152e72759b4b7d
 [assembly: System.Reflection.AssemblyProductAttribute("EcuadorMikuna_V2_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcuadorMikuna_V2_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
